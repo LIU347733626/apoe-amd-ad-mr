@@ -1,0 +1,90 @@
+NC_package/supplementary/TableS12_decode_replication.csv
+NC_package/supplementary/TableS16_pip_cross_cohort.csv
+NC_package/supplementary/TableS1_proteome_gsmr.csv
+NC_package/supplementary/TableS1b_new_scans_tophits.csv
+NC_package/supplementary/TableS1c_jansen_ztable.csv
+NC_package/supplementary/TableS1d_family_negcontrol_new.csv
+NC_package/supplementary/TableS20_mirror_allele.csv
+NC_package/supplementary/TableS21_mvp_ancestry_mr.csv
+NC_package/supplementary/TableS22_iamdgc_grid_mediation.csv
+NC_package/supplementary/TableS23_disease_protein_coloc.csv
+NC_package/supplementary/TableS25_cocausal_network.csv
+NC_package/supplementary/TableS26_celltype_expression_map.csv
+NC_package/supplementary/TableS28_genomicsem.csv
+NC_package/supplementary/TableS29_apoe_drug_landscape.csv
+NC_package/supplementary/TableS2_apoe_mr_sensitivity.csv
+NC_package/supplementary/TableS2b_focus_mr_new_cohorts.csv
+NC_package/supplementary/TableS2c_full_method_matrix.csv
+NC_package/supplementary/TableS30_cellchat_APOE_TREM2.csv
+NC_package/supplementary/TableS31_amd_subtype_mr.csv
+NC_package/supplementary/TableS32_APOE_virtual_KO_OE.csv
+NC_package/supplementary/TableS3_drug_targets.csv
+NC_package/supplementary/TableS4_mediation_exploratory.csv
+NC_package/supplementary/TableS4b_mediation_r13.csv
+NC_package/supplementary/TableS5_pharmacovigilance.csv
+NC_package/supplementary/TableS6_replication_consistency.csv
+NC_package/supplementary/TableS7_robustness_grid.csv
+NC_package/supplementary/TableS8_apoe_family_negcontrol.csv
+NC_package/supplementary/TableS9_retina_tissue_mr.csv
+apoe_results/apoe_safety_mr_results.csv
+apoe_results/mediation_results.csv
+apoe_results/mediation_results_r13.csv
+docs/audit_20260909/APOE_LITERATURE_NOVELTY_20260909.md
+docs/audit_20260909/DRUG_LANDSCAPE_20260909.md
+figures/Figure1_forest_data.csv
+figures/_figure2_data.csv
+pqtl_gsmr_results/pqtl_gsmr_v2_full.csv
+revision/results/amd_subtype/amd_subtype_allele_effects.csv
+revision/results/amd_subtype/amd_subtype_meta.csv
+revision/results/amd_subtype/amd_subtype_mr.csv
+revision/results/mechanism/apoe_coexpression_adj_Endothelial.csv
+revision/results/mechanism/apoe_coexpression_adj_Microglia.csv
+revision/results/mechanism/apoe_coexpression_adj_Muller_Glia.csv
+revision/results/mechanism/apoe_coexpression_adj_RPE.csv
+revision/results/mechanism/apoe_coexpression_adj_Rod.csv
+revision/results/mechanism/apoe_coexpression_adj_Unassigned.csv
+revision/results/mechanism/apoe_coexpression_pathways.csv
+revision/results/mechanism/apoe_receptor_axis.csv
+revision/results/mechanism/cellchat_APOE_TREM2_TYROBP.csv
+revision/results/mechanism/celltype_expression_map.csv
+revision/results/mechanism/celltype_protein_map.csv
+revision/results/mechanism/cocausal_scatter_genelevel.csv
+revision/results/mechanism/coloc_disease_proteins.csv
+revision/results/mechanism/region_vs_genome_effect_correlation.csv
+revision/results/mechanism/smr_twas_results_AD_r13.csv
+revision/results/mechanism/smr_twas_results_AMD_r13.csv
+revision/results/mechanism/smr_twas_results_IAMDGC.csv
+revision/results/mvp_ancestry/mvp_mr_all.csv
+revision/results/r13/apoe_crossmethod_matrix_golden.csv
+revision/results/r13/apoe_family_negcontrol.csv
+revision/results/r13/drug_repurposing_pharmacovigilance_supp.csv
+revision/results/r13/drug_repurposing_targets_supp.csv
+revision/results/r13/genomicsem_ldsc_summary_r13.csv
+revision/results/r13/mediation_both_alleles_r13.csv
+revision/results/r13/new_methods_full_matrix.csv
+revision/results/r13/s4_doseresponse_disease.csv
+revision/results/scdrs_apoe/scdrs_celltype_tests.csv
+revision/results/scdrs_apoe/scdrs_celltype_tests_noAPOEregion.csv
+
+
+# FIX(2026-09-10, M-3): 以下条目原列于语料清单，但 verify_claims.py 只解析
+# .csv/.tsv/.txt/.json/.md/.log —— 这些扩展名会被【静默跳过】，不贡献任何语料。
+# 保留在注释中以免丢失信息（若将来扩展解析器可放回）。
+# figures/Figure3_v19.pdf
+# figures/Figure4_NC.R
+# figures/Figure5_mechanism.R
+# figures/Figure6_drug_target.R
+# figures/FigureS8_amd_subtype.R
+# figures/make_Figure3_v19.R
+# revision/101_apoe_receptor_axis.py
+# revision/102_apoe_coexpression_adj.py
+# revision/103_coexpr_pathway.R
+# revision/104_region_rg_pruned.py
+# revision/105_cellchat_apoe.R
+# revision/106_scdrs_circularity.py
+# revision/111_sctenifold_perturb_APOE.R
+# revision/76_remake_tables.R
+# revision/78_amd_subtype_mr.R
+# revision/build_fig1_retiered.R
+# tmp/smoke2_sctenifold.R
+data/provenance/finngen_r13_phenos_20260909.json
